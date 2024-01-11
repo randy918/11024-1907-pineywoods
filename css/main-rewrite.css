@@ -96,9 +96,11 @@ h6 {
 .h6-mail2 {
   font-family: "Fira Sans";
   margin-top: -2vw;
+  margin-left: 20vw;
+  margin-right: 20vw;
   font-style: normal;
   font-weight: 500;
-  font-size: 2vw;
+  font-size: 3vw;
   color: rgb(82, 78, 68);
   text-decoration: none;
   text-align: center;
@@ -895,7 +897,7 @@ img {
   .font--color__white {
     color: rgb(82, 78, 68);
     letter-spacing: 0;
-    font-size: 0.85em;
+    font-size: 4vw;
     font-weight: 400;
     font-family: "Fira Sans";
   }
