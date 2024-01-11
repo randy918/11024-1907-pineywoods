@@ -107,8 +107,10 @@ $colors: (bg: rgba(55, 66, 76, 1),
 
 h1 {
     font-family: "palatino_lt_stdbold";
+    
     font-size: 6vw;
-    font-weight: 900;
+    font-weight: 600;
+    text-align: center;
 }
 
 h2 {
@@ -145,7 +147,7 @@ h6 {
     font-family: "Fira Sans";
     font-size: 1.65vw;
     font-style: italic;
-    font-weight: 400;
+    font-weight: 900;
     color: white;
     opacity: 0.7;
     padding-top: 0vw;
@@ -153,6 +155,40 @@ h6 {
     margin-bottom: 1.5vw;
     text-align: center;
 }
+
+.h6-mail {
+    font-family: "Fira Sans";
+    margin-top: -2vw;
+
+    font-style: normal;
+    font-weight: 500;
+    font-size: 2.65vw;
+
+    color: getColor(pineyTypeOne);
+
+    text-decoration: none;
+    &:hover {
+        color: white;
+    }
+}
+.h6-mail2 {
+    font-family: "Fira Sans";
+    margin-top: -2vw;
+
+    font-style: normal;
+    font-weight: 500;
+    font-size: 2.65vw;
+
+    color: getColor(pineyTypeOne);
+
+    text-decoration: none;
+    text-align: center;
+    &:hover {
+        color: white;
+    }
+}
+
+
 
 .h7 {
     //   background-color: black;
@@ -172,7 +208,11 @@ h6 {
         font-size: 2vw;
       }
 
+.contain-email {
 
+
+
+}
 
 
 .mail-to {
@@ -254,7 +294,6 @@ body::-webkit-scrollbar {
 
     //   width: min(1000px, calc(70% + 100px));
 }
-
 
 
 .grid__item {
@@ -461,10 +500,10 @@ body::-webkit-scrollbar {
 
 .flex__container {
     display: flex;
-    flex-direction: column;
+    // flex-direction: column;
     justify-content: center;
     align-items: center;
-    position: relative;
+    // position: relative;
 }
 
 h1 {

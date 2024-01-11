@@ -37,7 +37,8 @@
 h1 {
   font-family: "palatino_lt_stdbold";
   font-size: 6vw;
-  font-weight: 900;
+  font-weight: 600;
+  text-align: center;
 }
 
 h2 {
@@ -70,13 +71,40 @@ h6 {
   font-family: "Fira Sans";
   font-size: 1.65vw;
   font-style: italic;
-  font-weight: 400;
+  font-weight: 900;
   color: white;
   opacity: 0.7;
   padding-top: 0vw;
   margin-top: 0;
   margin-bottom: 1.5vw;
   text-align: center;
+}
+
+.h6-mail {
+  font-family: "Fira Sans";
+  margin-top: -2vw;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 2.65vw;
+  color: rgb(82, 78, 68);
+  text-decoration: none;
+}
+.h6-mail:hover {
+  color: white;
+}
+
+.h6-mail2 {
+  font-family: "Fira Sans";
+  margin-top: -2vw;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 2.65vw;
+  color: rgb(82, 78, 68);
+  text-decoration: none;
+  text-align: center;
+}
+.h6-mail2:hover {
+  color: white;
 }
 
 .h8 {
@@ -336,10 +364,8 @@ body::-webkit-scrollbar {
 
 .flex__container {
   display: flex;
-  flex-direction: column;
   justify-content: center;
   align-items: center;
-  position: relative;
 }
 
 h1 {
