@@ -82,7 +82,7 @@ h6 {
 
 .h6-mail {
   font-family: "Fira Sans";
-  margin-top: -2vw;
+  line-height: 4vw;
   font-style: normal;
   font-weight: 500;
   font-size: 2.65vw;
@@ -98,13 +98,17 @@ h6 {
   margin-top: -2vw;
   font-style: normal;
   font-weight: 500;
-  font-size: 2.65vw;
+  font-size: 2.35vw;
   color: rgb(82, 78, 68);
   text-decoration: none;
   text-align: center;
 }
 .h6-mail2:hover {
   color: white;
+}
+
+.hh7 {
+  font-size: 1vw;
 }
 
 .h8 {

@@ -158,12 +158,11 @@ h6 {
 
 .h6-mail {
     font-family: "Fira Sans";
-    margin-top: -2vw;
+line-height: 4vw;
 
     font-style: normal;
     font-weight: 500;
     font-size: 2.65vw;
-
     color: getColor(pineyTypeOne);
 
     text-decoration: none;
@@ -171,13 +170,15 @@ h6 {
         color: white;
     }
 }
+
+
 .h6-mail2 {
     font-family: "Fira Sans";
     margin-top: -2vw;
 
     font-style: normal;
     font-weight: 500;
-    font-size: 2.65vw;
+    font-size: 2.35vw;
 
     color: getColor(pineyTypeOne);
 
@@ -188,7 +189,11 @@ h6 {
     }
 }
 
+.hh7 {
 
+font-size: 1vw;
+
+}
 
 .h7 {
     //   background-color: black;
