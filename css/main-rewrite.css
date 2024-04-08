@@ -58,6 +58,11 @@ h3 {
   padding-top: 1vw;
 }
 
+.cabin--number {
+  font-size: 2vw;
+  margin-bottom: -1vw;
+}
+
 h5 {
   font-family: "palatino_lt_stdroman";
   font-size: 2.25vw;
