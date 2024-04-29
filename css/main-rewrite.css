@@ -434,6 +434,13 @@ h4 {
   color: white;
 }
 
+.h8-br {
+  font-family: "Fira Sans";
+  font-size: 2vw;
+  line-height: 1.8;
+  color: rgb(82, 78, 68);
+}
+
 .h9 {
   font-family: "palatino_lt_stdroman";
   font-size: 3vw;
